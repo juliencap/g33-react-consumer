@@ -1,7 +1,10 @@
+import { LatestArticles } from "./components/LatestArticles";
+
 function App() {
   return (
-    <>
+    <main>
       <h1>React Consumer</h1>
+
       <g33-hero-banner
         title-text="Girondins33 Design System"
         subtitle="Consommé depuis React"
@@ -10,7 +13,9 @@ function App() {
         cta-label="Découvrir"
         cta-url="https://www.girondins33.com"
       />
-    </>
+
+      <LatestArticles />
+    </main>
   );
 }
 
