@@ -63,4 +63,4 @@ npm run build
 
 ## Author
 
-Julien Capd
+Julien Cap
