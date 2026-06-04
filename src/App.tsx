@@ -1,6 +1,6 @@
 import "./App.css";
 import { HeroStoryblok } from "./components/HeroStoryblok";
-import { LatestArticles } from "./components/LatestArticles";
+import { LatestNewsGrid } from "./components/LatestNewsGrid";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <HeroStoryblok />
       </div>
 
-      <LatestArticles />
+      <LatestNewsGrid />
     </main>
   );
 }
