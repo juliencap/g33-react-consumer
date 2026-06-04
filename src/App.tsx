@@ -11,6 +11,7 @@ function App() {
           title-text="Girondins33 Design System"
           subtitle="Consommé depuis React"
           image-url="https://raw.githubusercontent.com/petermikitsh/stencil-react/HEAD/hero.png"
+          cta-target="_blank"
           image-alt="Stencil + React"
           cta-label="Découvrir"
           cta-url="https://github.com/juliencap/g33-stencil-design-system"
