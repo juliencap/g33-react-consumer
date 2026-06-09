@@ -58,9 +58,9 @@ export function LatestNewsGrid() {
             item._embedded?.["wp:term"]?.[0]?.[0]?.name || "Actualités";
 
           return (
-            <g33-article-card
+            <g33-content-card
               key={item.id}
-              post-title={decodeHtml(item.title.rendered)}
+              content-title={decodeHtml(item.title.rendered)}
               category={decodeHtml(category)}
               excerpt={decodeHtml(item.yoast_head_json?.og_description || "")}
               image-url={item.yoast_head_json?.og_image?.[0]?.url || ""}
@@ -72,7 +72,7 @@ export function LatestNewsGrid() {
                 year: "numeric",
               })}
               published-date-time={item.date.split("T")[0]}
-              post-url={item.link}
+              content-url={item.link}
               //show-cta={true}
             />
           );
