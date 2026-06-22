@@ -33,7 +33,7 @@ export function LatestNewsGrid() {
 
   useEffect(() => {
     fetch(
-      `https://www.girondins33.com/wp-json/wp/v2/actualite?per_page=${NEWS_LIMIT}&orderby=date&order=desc&_embed`,
+      `https://admin.girondins33.com/wp-json/wp/v2/actualite?per_page=${NEWS_LIMIT}&orderby=date&order=desc&_embed`,
     )
       .then((response) => response.json())
       .then((data) => {
